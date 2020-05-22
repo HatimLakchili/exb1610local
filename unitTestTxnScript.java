@@ -13,7 +13,7 @@ import java.util.ListIterator;
 public class unitTestTxnScript {
 
    // init cnx SGBD et base
-   private static txnscript txn = txnscript.getTxnscript() ;
+   private static txnscript txn = new txnscript() ;
 
    // tester la méthode list (en fonction du contenu du DML)
    String display = txn.list () ;
